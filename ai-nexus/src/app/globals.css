@@ -3,9 +3,9 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 :root { --bg:#0a0a0f; --fg:#e8e8f0; }
-* { scrollbar-color: #3a3a5c #12121a; }
+* { scrollbar-color: #ec4899 #12121a; }
 html { color-scheme: dark; }
 body { background: var(--bg); color: var(--fg); font-family: 'DM Sans', sans-serif; }
-::selection { background: rgba(0,212,255,.3); }
+::selection { background: rgba(236,72,153,.35); }
 .glass-panel { background: rgba(26,26,46,0.6); border:1px solid rgba(255,255,255,.06); backdrop-filter: blur(8px); }
-.text-gradient { background: linear-gradient(90deg,#00d4ff,#a855f7); -webkit-background-clip: text; color: transparent; }
+.text-gradient { background: linear-gradient(90deg,#f472b6,#ec4899); -webkit-background-clip: text; color: transparent; }
